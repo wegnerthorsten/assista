@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Assita Treuhand</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <script src="//code.jquery.com/jquery-1.10.2.min.js" type="javascript"></script>
+        <script src="js/bootstrap.js" type="javascript"></script>
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <style>
+            .carousel-fade .carousel-inner .item {
+                opacity: 0;
+                -webkit-transition-property: opacity;
+                -moz-transition-property: opacity;
+                -o-transition-property: opacity;
+                transition-property: opacity;
+            }
+            .carousel-fade .carousel-inner .active {
+                opacity: 1;
+            }
+            .carousel-fade .carousel-inner .active.left,
+            .carousel-fade .carousel-inner .active.right {
+                left: 0;
+                opacity: 0;
+                z-index: 1;
+            }
+            .carousel-fade .carousel-inner .next.left,
+            .carousel-fade .carousel-inner .prev.right {
+                opacity: 1;
+            }
+            .carousel-fade .carousel-control {
+                z-index: 2;
+            }
+            html,
+            body,
+            .carousel,
+            .carousel-inner,
+            .carousel-inner .item {
+                height: 100%;
+            }
+            .item:nth-child(1) {
+                background: darkred;
+            }
+            .item:nth-child(2) {
+                background: red;
+            }
+            .item:nth-child(3) {
+                background: orange;
+            }
+
+        </style>
+
+        <script>
+            $('.carousel').carousel({
+                interval: 1000
+            })
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Unternehmen<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Leitgedanke / Philosophie</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Inhaber</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Kontakt</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Standort</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Mitgliedschaft</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sep">
+                                    |
+                                </li>
+                                <li>
+                                    <a href="#">Dienstleistungen</a>
+                                </li>
+                                <li class="sep">
+                                    |
+                                </li>
+                                <li>
+                                    <a href="#">Geschäftskunden</a>
+                                </li>
+                                <li class="sep">
+                                    |
+                                </li>
+                                <li>
+                                    <a href="#">Privatkunden</a>
+                                </li>
+                                <li class="sep">
+                                    |
+                                </li>
+                                <li>
+                                    <a href="#">Kontakt</a>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+
+            </div><!--ende row-->
+            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mycarousel" data-slide-to="1" ></li>
+                    <li data-target="#mycarousel" data-slide-to="2" ></li>
+                    <li data-target="#mycarousel" data-slide-to="3" ></li>
+                    <li data-target="#mycarousel" data-slide-to="4" ></li>
+                    <li data-target="#mycarousel" data-slide-to="5" ></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/biene.png" alt="biene" class="img-responsive">
+                    </div>
+                    <div class="item">
+                          <img src="images/fliege.png" alt="fliege" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="images/lybelle.png" alt="lybille" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="images/schnecke.png" alt="schnecke" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="images/fliege2.png" alt="fliege" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="images/schnecke.png" alt="schnecke" class="img-responsive">
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+                <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+            </div>
+
+            <div class="row">
+                <div class="col col-md-4"> <h1>Titel</h1></div>
+                <div class="col col-md-4"></div>
+                <div class="col col-md-4"> </div>
+            </div><!--ende row-->
+            <div class="row">
+                <div class="col col-md-12">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy <a href="#">eirmod tempor invidunt</a> ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.<br><br>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                </div>
+            </div><!--ende row-->
+        </div><!--Container-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
+
