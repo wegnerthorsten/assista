@@ -11,6 +11,8 @@
 .navbar{
     margin-bottom:13px;
 }
-/*sfsf*/
-.navbar{}
-.navbarcc{}
+
+.navbar-collapse.in {
+    overflow-y: hidden;
+}
+
