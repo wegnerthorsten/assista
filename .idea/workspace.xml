@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc91f59f-f940-4129-b43d-2d76b06586a3" name="Default" comment="">
+    <list default="true" id="cc91f59f-f940-4129-b43d-2d76b06586a3" name="Default" comment="das ist ein versuch bbb">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -38,7 +38,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="9" selection-start="410" selection-end="410" vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="580">
+            <state line="15" column="11" selection-start="412" selection-end="412" vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="580">
               <folding />
             </state>
           </provider>
@@ -53,6 +53,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -209,7 +214,11 @@
       <created>1393715222793</created>
       <updated>1393715222793</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="das ist ein versuch bbb">
+      <created>1393715284947</created>
+      <updated>1393715284947</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -245,7 +254,8 @@
     </option>
     <MESSAGE value="das ist ein versuch" />
     <MESSAGE value="das ist ein versuch aaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="das ist ein versuch aaa" />
+    <MESSAGE value="das ist ein versuch bbb" />
+    <option name="LAST_COMMIT_MESSAGE" value="das ist ein versuch bbb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -295,7 +305,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="9" selection-start="410" selection-end="410" vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="580">
+        <state line="15" column="11" selection-start="412" selection-end="412" vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="580">
           <folding />
         </state>
       </provider>
