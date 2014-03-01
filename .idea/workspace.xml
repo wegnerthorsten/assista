@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc91f59f-f940-4129-b43d-2d76b06586a3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="assit.iws" />
@@ -37,7 +38,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="390" selection-end="390" vertical-scroll-proportion="0.3810345" vertical-offset="0" max-vertical-offset="580">
+            <state line="15" column="9" selection-start="410" selection-end="410" vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="580">
               <folding />
             </state>
           </provider>
@@ -200,7 +201,15 @@
       <created>1393714734695</created>
       <updated>1393714734695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="das ist ein versuch">
+      <created>1393714954873</created>
+      <updated>1393714954873</updated>
+    </task>
+    <task id="LOCAL-00003" summary="das ist ein versuch aaa">
+      <created>1393715222793</created>
+      <updated>1393715222793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -235,7 +244,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="das ist ein versuch" />
-    <option name="LAST_COMMIT_MESSAGE" value="das ist ein versuch" />
+    <MESSAGE value="das ist ein versuch aaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="das ist ein versuch aaa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -285,7 +295,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="390" selection-end="390" vertical-scroll-proportion="0.3810345" vertical-offset="0" max-vertical-offset="580">
+        <state line="15" column="9" selection-start="410" selection-end="410" vertical-scroll-proportion="0.43965518" vertical-offset="0" max-vertical-offset="580">
           <folding />
         </state>
       </provider>
