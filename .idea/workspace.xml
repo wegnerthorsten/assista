@@ -238,7 +238,11 @@
       <created>1393789813416</created>
       <updated>1393789813416</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="navbar responsive erstellt">
+      <created>1393789989358</created>
+      <updated>1393789989358</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
