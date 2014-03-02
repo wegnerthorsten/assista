@@ -25,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="121" selection-start="7690" selection-end="7690" vertical-scroll-proportion="1.6862004" vertical-offset="1182" max-vertical-offset="3298">
+            <state line="84" column="67" selection-start="0" selection-end="12480" vertical-scroll-proportion="-4.8235292" vertical-offset="1182" max-vertical-offset="3298">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="14" column="21" selection-start="404" selection-end="404" vertical-scroll-proportion="0.41034484" vertical-offset="0" max-vertical-offset="580">
               <folding />
             </state>
           </provider>
@@ -234,12 +234,16 @@
       <created>1393789742854</created>
       <updated>1393789742854</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="navbar responsive erstellt">
+      <created>1393789813416</created>
+      <updated>1393789813416</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -324,16 +328,16 @@
         <state line="66" column="29" selection-start="1899" selection-end="2716" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1853" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state line="84" column="67" selection-start="0" selection-end="12480" vertical-scroll-proportion="-4.8235292" vertical-offset="1182" max-vertical-offset="3298">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="121" selection-start="7690" selection-end="7690" vertical-scroll-proportion="1.6862004" vertical-offset="1182" max-vertical-offset="3298">
+        <state line="14" column="21" selection-start="404" selection-end="404" vertical-scroll-proportion="0.41034484" vertical-offset="0" max-vertical-offset="580">
           <folding />
         </state>
       </provider>
