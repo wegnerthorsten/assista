@@ -16,3 +16,12 @@
     overflow-y: hidden;
 }
 
+
+#jquery {
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}

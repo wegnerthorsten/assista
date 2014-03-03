@@ -11,59 +11,33 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <script src="//code.jquery.com/jquery-1.10.2.min.js" type="javascript"></script>
         <script src="js/bootstrap.js" type="javascript"></script>
+        <script src="js/jquery.sudoSlider.min.js" type="javascript"></script>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
         <style>
-            .carousel-fade .carousel-inner .item {
-                opacity: 0;
-                -webkit-transition-property: opacity;
-                -moz-transition-property: opacity;
-                -o-transition-property: opacity;
-                transition-property: opacity;
-            }
-            .carousel-fade .carousel-inner .active {
-                opacity: 1;
-            }
-            .carousel-fade .carousel-inner .active.left,
-            .carousel-fade .carousel-inner .active.right {
-                left: 0;
-                opacity: 0;
-                z-index: 1;
-            }
-            .carousel-fade .carousel-inner .next.left,
-            .carousel-fade .carousel-inner .prev.right {
-                opacity: 1;
-            }
-            .carousel-fade .carousel-control {
-                z-index: 2;
-            }
-            html,
-            body,
-            .carousel,
-            .carousel-inner,
-            .carousel-inner .item {
-                height: 100%;
-            }
-            .item:nth-child(1) {
-                background: darkred;
-            }
-            .item:nth-child(2) {
-                background: red;
-            }
-            .item:nth-child(3) {
-                background: orange;
-            }
 
+            #slider img {max-height: 100%;max-width: 100%;}
         </style>
 
         <script>
-            $('.carousel').carousel({
-                interval: 1000
-            })
+            $.noConflict();
+            jQuery(document).ready(function(){
+                var sudoSlider = jQuery("#slider").sudoSlider({
+                    responsive: true,
+                    autoHeight: false,
+                    numeric:true,
+                    auto: true,
+                    speed: 1500,
+                    pause: 6000,
+                    controlsFade: false,
+                    continuous:true,
+                    effect:"fade",
+                    prevNext: false
+                });
+
+            });
         </script>
     </head>
     <body>
@@ -132,42 +106,21 @@
                             </ul>
                     </div><!-- /.collapse-->
                 </nav>
-
             </div><!--ende row-->
-            <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#mycarousel" data-slide-to="1" ></li>
-                    <li data-target="#mycarousel" data-slide-to="2" ></li>
-                    <li data-target="#mycarousel" data-slide-to="3" ></li>
-                    <li data-target="#mycarousel" data-slide-to="4" ></li>
-                    <li data-target="#mycarousel" data-slide-to="5" ></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="images/biene.png" alt="biene" class="img-responsive">
-                    </div>
-                    <div class="item">
-                          <img src="images/fliege.png" alt="fliege" class="img-responsive">
-                    </div>
-                    <div class="item">
-                        <img src="images/lybelle.png" alt="lybille" class="img-responsive">
-                    </div>
-                    <div class="item">
-                        <img src="images/schnecke.png" alt="schnecke" class="img-responsive">
-                    </div>
-                    <div class="item">
-                        <img src="images/fliege2.png" alt="fliege" class="img-responsive">
-                    </div>
-                    <div class="item">
-                        <img src="images/schnecke.png" alt="schnecke" class="img-responsive">
+            <div class="row">
+                <div style="position:relative;">
+                    <div id="slider" class="slider">
+                        <ul>
+                            <li><img src="images/assista-images/slider/fliege.png" alt="slider"></li>
+                            <li><img src="images/assista-images/slider/biene.png" alt="slider"></li>
+                            <li><img src="images/assista-images/slider/fliege.png" alt="slider"></li>
+                            <li><img src="images/assista-images/slider/lybelle.png" alt="slider"></li>
+                            <li><img src="images/assista-images/slider/schnecke.png" alt="slider"></li>
+                            <li><img src="images/assista-images/slider/lybelle2.png" alt="slider"></li>
+                        </ul>
                     </div>
                 </div>
-                <!-- Controls -->
-                <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
-                <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
             </div>
-
             <div class="row">
                 <div class="col col-md-4"> <h1>Titel</h1></div>
                 <div class="col col-md-4"></div>
