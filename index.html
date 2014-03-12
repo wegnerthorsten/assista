@@ -9,9 +9,9 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" type="text/css">
-        <script src="//code.jquery.com/jquery-1.10.2.min.js" type="javascript"></script>
-        <script src="js/bootstrap.js" type="javascript"></script>
-        <script src="js/jquery.sudoSlider.min.js" type="javascript"></script>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script language="javascript" type="text/javascript"  src="js/bootstrap.js"></script>
+        <script language="javascript" type="text/javascript" src="js/jquery.sudoSlider.min.js"></script>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -21,24 +21,7 @@
             #slider img {max-height: 100%;max-width: 100%;}
         </style>
 
-        <script>
-            $.noConflict();
-            jQuery(document).ready(function(){
-                var sudoSlider = jQuery("#slider").sudoSlider({
-                    responsive: true,
-                    autoHeight: false,
-                    numeric:true,
-                    auto: true,
-                    speed: 1500,
-                    pause: 6000,
-                    controlsFade: false,
-                    continuous:true,
-                    effect:"fade",
-                    prevNext: false
-                });
 
-            });
-        </script>
     </head>
     <body>
         <div class="container">
@@ -132,10 +115,23 @@
                 </div>
             </div><!--ende row-->
         </div><!--Container-->
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
+        <script>
+            $.noConflict();
+            jQuery(document).ready(function(){
+                var sudoSlider = jQuery("#slider").sudoSlider({
+                    responsive: true,
+                    autoHeight: false,
+                    numeric:true,
+                    auto: true,
+                    speed: 1500,
+                    pause: 6000,
+                    controlsFade: false,
+                    continuous:true,
+                    effect:"fade",
+                    prevNext: false
+                });
+            });
+        </script>
     </body>
 </html>
 
